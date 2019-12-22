@@ -10,7 +10,7 @@ import java.util.Scanner;
   * Some notes about the implementation:
   *
   * 1.Some variables, such as "endIndex_startLegnth" are implemented for the purpose of 
-  * greater readability. The end index is the starting step for the calculation of 
+  * greater readability. This end index is the starting step for the calculation of 
   * the new binary configuration and it is applied many times throughout the program. 
   *
   * Other variables implemented for greater readability:
@@ -18,7 +18,7 @@ import java.util.Scanner;
   * "change_startLength" - records an increase, or a decrease, of the start length.
   * "maxIncrease_startLength" - the maximum possible increase of the start length.
   *
-  * 2. When the array representing the new binary configuartion has a shorter length than 
+  * 2. When the array representing the new binary configuration has a shorter length than 
   * the start length, the elements beyond the new end index are set to zero solely for 
   * the purpose of consistency. Anyway, the results are printed up to the point of 
   * the new end index of the array that represents the new binary configuration.
